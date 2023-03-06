@@ -8,9 +8,9 @@ namespace BlockchainAssignment
 {
     class Blockchain
     {
-        public int maxBlock { get => Blocks.Count; }                                       // Maximum number of transactions per block
+        public int maxBlock { get => Blocks.Count; }                                       // Max number of transactions per block
         public List<Block> Blocks = new List<Block>();                                      // List of block objects forming the blockchain
-        public List<Transaction> TransactionPool = new List<Transaction>();                // List of pending transactions to be mined
+        public List<Transaction> TransactionPool = new List<Transaction>();                
 
         public Blockchain()
         {
@@ -86,7 +86,7 @@ namespace BlockchainAssignment
         public double GetBalance(string address)
         {
             // Accumulator value
-            double balance = 10000;
+            double balance = 0;
 
             // Loop through all approved transactions in order to assess account balance
             foreach (Block b in Blocks)

@@ -63,7 +63,7 @@ namespace BlockchainAssignment
             this.richTextBox1.BackColor = System.Drawing.SystemColors.InfoText;
             this.richTextBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.richTextBox1.Location = new System.Drawing.Point(13, 23);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(551, 314);
             this.richTextBox1.TabIndex = 0;
@@ -72,7 +72,7 @@ namespace BlockchainAssignment
             // printBtn
             // 
             this.printBtn.Location = new System.Drawing.Point(568, 226);
-            this.printBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.printBtn.Margin = new System.Windows.Forms.Padding(4);
             this.printBtn.Name = "printBtn";
             this.printBtn.Size = new System.Drawing.Size(100, 28);
             this.printBtn.TabIndex = 1;
@@ -83,7 +83,7 @@ namespace BlockchainAssignment
             // indexTBox
             // 
             this.indexTBox.Location = new System.Drawing.Point(568, 185);
-            this.indexTBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.indexTBox.Margin = new System.Windows.Forms.Padding(4);
             this.indexTBox.Name = "indexTBox";
             this.indexTBox.Size = new System.Drawing.Size(216, 22);
             this.indexTBox.TabIndex = 2;
@@ -101,7 +101,7 @@ namespace BlockchainAssignment
             // genWalletBtn
             // 
             this.genWalletBtn.Location = new System.Drawing.Point(676, 415);
-            this.genWalletBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.genWalletBtn.Margin = new System.Windows.Forms.Padding(4);
             this.genWalletBtn.Name = "genWalletBtn";
             this.genWalletBtn.Size = new System.Drawing.Size(100, 64);
             this.genWalletBtn.TabIndex = 4;
@@ -112,7 +112,7 @@ namespace BlockchainAssignment
             // valKeysBtn
             // 
             this.valKeysBtn.Location = new System.Drawing.Point(676, 487);
-            this.valKeysBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.valKeysBtn.Margin = new System.Windows.Forms.Padding(4);
             this.valKeysBtn.Name = "valKeysBtn";
             this.valKeysBtn.Size = new System.Drawing.Size(100, 62);
             this.valKeysBtn.TabIndex = 5;
@@ -123,7 +123,7 @@ namespace BlockchainAssignment
             // publicKey
             // 
             this.publicKey.Location = new System.Drawing.Point(273, 415);
-            this.publicKey.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.publicKey.Margin = new System.Windows.Forms.Padding(4);
             this.publicKey.Name = "publicKey";
             this.publicKey.Size = new System.Drawing.Size(376, 22);
             this.publicKey.TabIndex = 6;
@@ -154,7 +154,7 @@ namespace BlockchainAssignment
             // privateKey
             // 
             this.privateKey.Location = new System.Drawing.Point(273, 463);
-            this.privateKey.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.privateKey.Margin = new System.Windows.Forms.Padding(4);
             this.privateKey.Name = "privateKey";
             this.privateKey.Size = new System.Drawing.Size(376, 22);
             this.privateKey.TabIndex = 9;
@@ -163,7 +163,7 @@ namespace BlockchainAssignment
             // createTransBtn
             // 
             this.createTransBtn.Location = new System.Drawing.Point(16, 487);
-            this.createTransBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.createTransBtn.Margin = new System.Windows.Forms.Padding(4);
             this.createTransBtn.Name = "createTransBtn";
             this.createTransBtn.Size = new System.Drawing.Size(97, 57);
             this.createTransBtn.TabIndex = 10;
@@ -204,7 +204,7 @@ namespace BlockchainAssignment
             // amountTBox
             // 
             this.amountTBox.Location = new System.Drawing.Point(187, 488);
-            this.amountTBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.amountTBox.Margin = new System.Windows.Forms.Padding(4);
             this.amountTBox.Name = "amountTBox";
             this.amountTBox.Size = new System.Drawing.Size(60, 22);
             this.amountTBox.TabIndex = 14;
@@ -212,7 +212,7 @@ namespace BlockchainAssignment
             // feeTBox
             // 
             this.feeTBox.Location = new System.Drawing.Point(187, 520);
-            this.feeTBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.feeTBox.Margin = new System.Windows.Forms.Padding(4);
             this.feeTBox.Name = "feeTBox";
             this.feeTBox.Size = new System.Drawing.Size(60, 22);
             this.feeTBox.TabIndex = 15;
@@ -220,7 +220,7 @@ namespace BlockchainAssignment
             // recieverKeyTBox
             // 
             this.recieverKeyTBox.Location = new System.Drawing.Point(272, 522);
-            this.recieverKeyTBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.recieverKeyTBox.Margin = new System.Windows.Forms.Padding(4);
             this.recieverKeyTBox.Name = "recieverKeyTBox";
             this.recieverKeyTBox.Size = new System.Drawing.Size(377, 22);
             this.recieverKeyTBox.TabIndex = 16;
@@ -228,7 +228,7 @@ namespace BlockchainAssignment
             // blockGenBtn
             // 
             this.blockGenBtn.Location = new System.Drawing.Point(568, 266);
-            this.blockGenBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.blockGenBtn.Margin = new System.Windows.Forms.Padding(4);
             this.blockGenBtn.Name = "blockGenBtn";
             this.blockGenBtn.Size = new System.Drawing.Size(100, 68);
             this.blockGenBtn.TabIndex = 17;
@@ -239,7 +239,7 @@ namespace BlockchainAssignment
             // printAllBtn
             // 
             this.printAllBtn.Location = new System.Drawing.Point(687, 226);
-            this.printAllBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.printAllBtn.Margin = new System.Windows.Forms.Padding(4);
             this.printAllBtn.Name = "printAllBtn";
             this.printAllBtn.Size = new System.Drawing.Size(97, 28);
             this.printAllBtn.TabIndex = 18;
@@ -250,7 +250,7 @@ namespace BlockchainAssignment
             // readPendTrandBtn
             // 
             this.readPendTrandBtn.Location = new System.Drawing.Point(138, 390);
-            this.readPendTrandBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.readPendTrandBtn.Margin = new System.Windows.Forms.Padding(4);
             this.readPendTrandBtn.Name = "readPendTrandBtn";
             this.readPendTrandBtn.Size = new System.Drawing.Size(109, 69);
             this.readPendTrandBtn.TabIndex = 19;
@@ -261,7 +261,7 @@ namespace BlockchainAssignment
             // adjustDiff
             // 
             this.adjustDiff.Location = new System.Drawing.Point(568, 43);
-            this.adjustDiff.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.adjustDiff.Margin = new System.Windows.Forms.Padding(4);
             this.adjustDiff.Name = "adjustDiff";
             this.adjustDiff.Size = new System.Drawing.Size(100, 28);
             this.adjustDiff.TabIndex = 20;
@@ -272,7 +272,7 @@ namespace BlockchainAssignment
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(676, 45);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(111, 28);
             this.button1.TabIndex = 21;
@@ -290,7 +290,7 @@ namespace BlockchainAssignment
             "Random",
             "Address Preference"});
             this.comboBox1.Location = new System.Drawing.Point(568, 80);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(216, 24);
             this.comboBox1.TabIndex = 22;
@@ -301,7 +301,7 @@ namespace BlockchainAssignment
             // validate
             // 
             this.validate.Location = new System.Drawing.Point(690, 272);
-            this.validate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.validate.Margin = new System.Windows.Forms.Padding(4);
             this.validate.Name = "validate";
             this.validate.Size = new System.Drawing.Size(97, 57);
             this.validate.TabIndex = 23;
@@ -312,7 +312,7 @@ namespace BlockchainAssignment
             // addressFind
             // 
             this.addressFind.Location = new System.Drawing.Point(568, 117);
-            this.addressFind.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addressFind.Margin = new System.Windows.Forms.Padding(4);
             this.addressFind.Name = "addressFind";
             this.addressFind.Size = new System.Drawing.Size(216, 22);
             this.addressFind.TabIndex = 25;
@@ -321,7 +321,7 @@ namespace BlockchainAssignment
             // CheckBalance
             // 
             this.CheckBalance.Location = new System.Drawing.Point(16, 390);
-            this.CheckBalance.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckBalance.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBalance.Name = "CheckBalance";
             this.CheckBalance.Size = new System.Drawing.Size(99, 69);
             this.CheckBalance.TabIndex = 24;
@@ -344,7 +344,7 @@ namespace BlockchainAssignment
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(813, 581);
+            this.ClientSize = new System.Drawing.Size(829, 581);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.addressFind);
             this.Controls.Add(this.CheckBalance);
@@ -373,7 +373,7 @@ namespace BlockchainAssignment
             this.Controls.Add(this.printBtn);
             this.Controls.Add(this.richTextBox1);
             this.ForeColor = System.Drawing.Color.Black;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "BlockchainApp";
             this.Text = "Blockchain App";
             this.Load += new System.EventHandler(this.Form1_Load);

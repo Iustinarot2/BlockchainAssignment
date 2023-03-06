@@ -438,11 +438,12 @@ namespace BlockchainAssignment
         //Function to adjust the difficulty
         public void adjustDiff(DateTime lastTime)
         {
-            //Gets the elapsed time between now and the last block mined
+            //the time between now and the last block mined is used in timeDiff
             DateTime startTime = DateTime.UtcNow;
             TimeSpan timeDiff = startTime - lastTime;
 
-            //If the diff is less than 5 seconds, the diff is increased to attempt to increase the time
+
+            // difficulty increases alongside the time if the difference is less than 5 seconds
             if (timeDiff < TimeSpan.FromSeconds(5))
             {
                 difficulty++;
@@ -451,7 +452,7 @@ namespace BlockchainAssignment
                 Console.WriteLine("New Difficulty:");
                 Console.WriteLine(difficulty);
             }
-            //If the diff is more than 5 seconds, the diff is increased to attempt to decrease the time
+            // difficulty increases while the time decreases if the difference is more than 5 seconds
             else if (timeDiff > TimeSpan.FromSeconds(5))
             {
                 difficulty--;
